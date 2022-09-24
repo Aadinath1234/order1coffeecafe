@@ -1,0 +1,48 @@
+.logo{
+    background-color: black;
+   width: 20%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 6px 8px;
+   margin: 6px 29px;
+
+}
+
+.logo img{
+    width: 74%;
+    border: 3px solid white;
+    border-radius: 50px;
+
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+
+}
+
+.nav-list{
+    width: 56%;
+    display: flex;
+    align-items: center;
+
+}
+
+
+@media only screen and (max-width: 843px){
+    .nav-list{flex-direction: column;}
+
+    .navbar{
+        flex-direction: column;
+        transition: all 0.3s ease-out;
+        height: 447px;
+    }
+}
+
+
